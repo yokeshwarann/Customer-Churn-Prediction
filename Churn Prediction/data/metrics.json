@@ -1,0 +1,24 @@
+{
+  "individual_models": {
+    "xgboost": {
+      "roc_auc": 0.847,
+      "pr_auc": 0.7707
+    },
+    "lightgbm": {
+      "roc_auc": 0.847,
+      "pr_auc": 0.7659
+    },
+    "logistic_regression": {
+      "roc_auc": 0.8489,
+      "pr_auc": 0.7626
+    }
+  },
+  "stacked_ensemble": {
+    "roc_auc": 0.8496,
+    "pr_auc": 0.7687,
+    "brier_score": 0.1264,
+    "log_loss": 0.415,
+    "best_threshold": 0.7222,
+    "f1_at_best_threshold": 0.7807
+  }
+}

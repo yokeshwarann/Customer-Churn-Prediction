@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "ticket_sentiment_negative",
+    "importance": 0.6082
+  },
+  {
+    "feature": "engagement_composite",
+    "importance": 0.3976
+  },
+  {
+    "feature": "Daily_Usage_Mins",
+    "importance": 0.3203
+  },
+  {
+    "feature": "Account_Age_Days",
+    "importance": 0.0566
+  },
+  {
+    "feature": "ticket_sentiment_neutral",
+    "importance": 0.0346
+  },
+  {
+    "feature": "sentiment_score",
+    "importance": 0.0195
+  },
+  {
+    "feature": "usage_intensity",
+    "importance": 0.0165
+  },
+  {
+    "feature": "is_negative_sentiment",
+    "importance": 0.0124
+  },
+  {
+    "feature": "tenure_years",
+    "importance": 0.0088
+  },
+  {
+    "feature": "explicit_cancel_intent",
+    "importance": 0.0062
+  },
+  {
+    "feature": "ticket_sentiment_positive",
+    "importance": 0.005
+  },
+  {
+    "feature": "disengagement_risk",
+    "importance": 0.0021
+  },
+  {
+    "feature": "Login_Frequency_Weekly",
+    "importance": 0.001
+  },
+  {
+    "feature": "Login_Frequency_Rarely",
+    "importance": 0.0006
+  },
+  {
+    "feature": "Login_Frequency_Daily",
+    "importance": 0.0
+  }
+]

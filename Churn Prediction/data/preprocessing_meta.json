@@ -1,0 +1,66 @@
+{
+  "cat_cols": [
+    "Login_Frequency",
+    "ticket_sentiment"
+  ],
+  "num_cols": [
+    "Account_Age_Days",
+    "Daily_Usage_Mins",
+    "sentiment_score",
+    "is_negative_sentiment",
+    "is_positive_sentiment",
+    "explicit_cancel_intent",
+    "login_freq_encoded",
+    "is_rare_login",
+    "is_daily_login",
+    "tenure_years",
+    "is_new_customer",
+    "is_long_tenure",
+    "usage_intensity",
+    "low_usage",
+    "disengagement_risk",
+    "frustration_and_absence",
+    "onboarding_complaint_risk",
+    "engagement_composite"
+  ],
+  "cat_categories": {
+    "Login_Frequency": [
+      "Daily",
+      "Rarely",
+      "Weekly"
+    ],
+    "ticket_sentiment": [
+      "negative",
+      "neutral",
+      "positive"
+    ]
+  },
+  "feature_names": [
+    "Login_Frequency_Daily",
+    "Login_Frequency_Rarely",
+    "Login_Frequency_Weekly",
+    "ticket_sentiment_negative",
+    "ticket_sentiment_neutral",
+    "ticket_sentiment_positive",
+    "Account_Age_Days",
+    "Daily_Usage_Mins",
+    "sentiment_score",
+    "is_negative_sentiment",
+    "is_positive_sentiment",
+    "explicit_cancel_intent",
+    "login_freq_encoded",
+    "is_rare_login",
+    "is_daily_login",
+    "tenure_years",
+    "is_new_customer",
+    "is_long_tenure",
+    "usage_intensity",
+    "low_usage",
+    "disengagement_risk",
+    "frustration_and_absence",
+    "onboarding_complaint_risk",
+    "engagement_composite"
+  ],
+  "threshold": 0.7222222222222222,
+  "watch_cutoff": 0.21068249258160238
+}
